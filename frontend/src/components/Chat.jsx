@@ -31,17 +31,20 @@ export default function Chat() {
 
     setLoading(true);
 
-    const response = await fetch("http://localhost:3000/chat", {
-      method: "POST",
+    const response = await fetch(
+      "https://basic-chatbot-openrouter-1.onrender.com/chat",
+      {
+        method: "POST",
 
-      headers: {
-        "Content-Type": "application/json",
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        body: JSON.stringify({
+          message: text,
+        }),
       },
-
-      body: JSON.stringify({
-        message: text,
-      }),
-    });
+    );
 
     const data = await response.json();
     if (!response.ok) {
