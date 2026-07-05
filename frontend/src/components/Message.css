@@ -1,0 +1,140 @@
+.user {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    margin-bottom: 20px;
+
+}
+
+.bot {
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    margin-bottom: 20px;
+
+}
+
+.bubble {
+
+    max-width: 80%;
+
+    border-radius: 14px;
+
+    padding: 18px;
+
+    line-height: 1.7;
+
+}
+
+.user .bubble {
+
+    background: #2563eb;
+
+    color: white;
+
+}
+
+.bot .bubble {
+
+    background: #1f2937;
+
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+}
+
+.markdown p {
+
+    margin: 10px 0;
+
+}
+
+.markdown ul,
+.markdown ol {
+
+    padding-left: 25px;
+
+}
+
+.markdown li {
+
+    margin: 6px 0;
+
+}
+
+.markdown table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 15px;
+
+}
+
+.markdown th,
+.markdown td {
+
+    border: 1px solid #555;
+
+    padding: 10px;
+
+}
+
+.markdown code {
+
+    background: #374151;
+
+    padding: 3px 6px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+}
+
+.markdown pre {
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    overflow: auto;
+
+}
+
+.markdown blockquote {
+
+    border-left: 4px solid #4f46e5;
+
+    padding-left: 15px;
+
+    margin: 15px 0;
+
+    color: #ccc;
+
+}
+
+.markdown a {
+
+    color: #60a5fa;
+
+}
+
+.markdown img {
+
+    max-width: 100%;
+
+    border-radius: 10px;
+
+}

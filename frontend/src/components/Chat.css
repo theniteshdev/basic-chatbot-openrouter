@@ -1,0 +1,47 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.messages {
+    flex: 1;
+    overflow: auto;
+    padding: 40px;
+}
+
+.input {
+    display: flex;
+    padding: 20px;
+    border-top: 1px solid #333;
+}
+
+input {
+
+    flex: 1;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    outline: none;
+
+}
+
+button {
+
+    margin-left: 10px;
+
+    border: none;
+
+    padding: 15px 25px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
