@@ -11,7 +11,7 @@ app.use(cors({
     origin: [
         "http://localhost:5173",
         "http://localhost:5174",
-        "https://YOUR_FRONTEND.vercel.app",
+        "https://niteshbot.vercel.app/",
     ],
 }));
 app.use(express.json());
