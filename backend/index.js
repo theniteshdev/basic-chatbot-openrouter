@@ -11,8 +11,11 @@ app.use(cors({
     origin: [
         "http://localhost:5173",
         "http://localhost:5174",
-        "https://niteshbot.vercel.app/",
+        "https://niteshbot.vercel.app",
     ],
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: false,
 }));
 app.use(express.json());
 const SYSTEM_PROMPT = `
